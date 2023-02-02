@@ -1,6 +1,6 @@
-.git/
-.gitignore
-Dockerfile
-.dockerignore
-docker-compose.yml
-demo
+*
+.*
+!Makefile
+!*.cpp
+!*.hpp
+
